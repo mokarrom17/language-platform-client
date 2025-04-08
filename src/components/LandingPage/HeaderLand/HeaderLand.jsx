@@ -4,16 +4,7 @@ import logo from "../../../assets/logoh.png";
 import AuthContext from "../../../contexts/authContext";
 
 const HeaderLand = () => {
-  const { user, logout } = useContext(AuthContext);
-
-  const handleLogout = async () => {
-    try {
-      await logout();
-      // Optional: redirect or show a toast
-    } catch (error) {
-      console.error("Logout failed:", error);
-    }
-  };
+  const { user } = useContext(AuthContext); // Get user from context
 
   return (
     <header className="bg-blue-500 px-8 py-4 fixed top-0 left-0 w-full z-50">
@@ -48,38 +39,13 @@ const HeaderLand = () => {
               </NavLink>
             </li>
 
-            {user ? (
-              <>
-                <li>
-                  <button
-                    onClick={handleLogout}
-                    className="bg-blue-600 hover:bg-blue-700 px-4 py-2 rounded"
-                  >
-                    Logout
-                  </button>
-                </li>
-                <li>
-                  <div className="flex items-center gap-2">
-                    <img
-                      src={
-                        user.photoURL ||
-                        "https://i.ibb.co/ZYW3VTp/brown-brim.png"
-                      }
-                      className="w-8 h-8 rounded-full border"
-                      alt="User"
-                    />
-                    <span className="text-sm font-medium">
-                      {user.displayName || "User"}
-                    </span>
-                  </div>
-                </li>
-              </>
-            ) : (
+            {/* Show Login and Register buttons if user is not logged in */}
+            {!user ? (
               <>
                 <li>
                   <NavLink
                     className="bg-blue-600 hover:bg-blue-700 px-4 py-2 rounded"
-                    to="/login"
+                    to="/login" // Navigate to login page
                   >
                     Login
                   </NavLink>
@@ -87,12 +53,14 @@ const HeaderLand = () => {
                 <li>
                   <NavLink
                     className="bg-blue-600 hover:bg-blue-700 px-4 py-2 rounded"
-                    to="/signup"
+                    to="/signup" // Navigate to signup page
                   >
                     Register
                   </NavLink>
                 </li>
               </>
+            ) : (
+              <></>
             )}
           </ul>
         </div>

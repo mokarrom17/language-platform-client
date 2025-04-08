@@ -1,0 +1,58 @@
+[
+  {
+    "_id": 1,
+    "name": "Sarah Collins",
+    "occupation": "Business English Coach",
+    "review": "This English learning platform has completely changed the way I teach professionals. The real-world dialogues and business-focused vocabulary help my clients communicate clearly and confidently in international meetings and presentations.",
+    "image": "https://i.ibb.co/Cz71m1G/Image-1.jpg"
+  },
+  {
+    "_id": 2,
+    "name": "Dr. James Carter",
+    "occupation": "Academic English Instructor",
+    "review": "An excellent tool for students preparing for academic environments. The platform offers strong grammar explanations and academic vocabulary that are essential for essay writing, lectures, and research discussions. It’s become a key part of my curriculum.",
+    "image": "https://i.ibb.co/BwPb6r3/Image-2.jpg"
+  },
+  {
+    "_id": 3,
+    "name": "Amanda Reynolds",
+    "occupation": "English Language Content Developer",
+    "review": "The platform blends grammar, vocabulary, and real-life context in a way that's fun and engaging. It’s ideal for learners who want to build fluency while also understanding how English is used in different cultural and everyday scenarios.",
+    "image": "https://i.ibb.co/S0pGsv8/Image-3.jpg"
+  },
+  {
+    "_id": 4,
+    "name": "Michael Thompson",
+    "occupation": "EdTech Developer",
+    "review": "From a technical and educational standpoint, this English learning app is one of the best. The pronunciation AI is impressively accurate, and the lesson progression feels natural. I even use it myself to refine my own communication skills.",
+    "image": "https://i.ibb.co/qBv7gCt/Image-4.jpg"
+  },
+  {
+    "_id": 5,
+    "name": "Emily Watson",
+    "occupation": "English Learning Blogger",
+    "review": "As someone who's learned English while traveling, I found this platform incredibly helpful. The travel-specific lessons, audio practice, and quizzes made it easy to pick up conversational English quickly. It’s a must-have for any traveler or expat.",
+    "image": "https://i.ibb.co/mDRbN2z/Image-5.jpg"
+  },
+  {
+    "_id": 6,
+    "name": "Laura Kim",
+    "occupation": "ESL Teacher",
+    "review": "This platform has been a game-changer for my students. The interactive lessons and pronunciation tools are incredibly effective. My learners are more engaged and confident in speaking English thanks to the structured modules and real-life practice scenarios. Highly recommend for both teachers and students.",
+    "image": "https://i.ibb.co.com/WJ6J1Zx/young-student-woman-wearing-denim-jacket-eyeglasses-holding-colorful-folders-showing-thumb-up-pink.jpg"
+  },
+  {
+    "_id": 7,
+    "name": "Carlos Mendes",
+    "occupation": "English Fluency Coach",
+    "review": "As someone who has studied and taught English for years, I can say this platform is outstanding. The conversation exercises, grammar lessons, and cultural notes give learners everything they need to sound natural and fluent.",
+    "image": "https://i.ibb.co.com/jFjsrmQ/young-student-girl-isolated-gray-wall-smiling-camera-pressing-laptop-chest-wearing-backpack-ready-go.jpg"
+  },
+  {
+    "_id": 8,
+    "name": "Amina Hassan",
+    "occupation": "IELTS Student",
+    "review": "This platform made learning English enjoyable and practical. The bite-sized lessons and test-prep features helped me boost my speaking and listening scores in just a few weeks. It’s perfect for anyone preparing for exams like IELTS or TOEFL.",
+    "image": "https://i.ibb.co.com/nMg15pt3/front-view-young-female-student-white-t-shirt-with-copybook-smile-pink-background-lesson-university.jpg"
+  }
+]

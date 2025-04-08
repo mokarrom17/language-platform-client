@@ -1,0 +1,13 @@
+.leftSlider {
+  animation: slideInLeft 1s;
+}
+
+@keyframes slideInLeft {
+  0% {
+    transform: translateX(100%);
+  }
+
+  100% {
+    transform: translateX(0);
+  }
+}
